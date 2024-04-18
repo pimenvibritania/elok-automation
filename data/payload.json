@@ -1,0 +1,262 @@
+{
+  "wilayah": "Wilayah 3 Cicurug",
+  "koordinator": "Sahidin",
+  "alamat": "Cicurug",
+  "elokUrl": "https://tkd.bkpsdmcloud.id/2024",
+  "asn": [
+    {
+      "nama": "Sahidin",
+      "nip": "197305042007011012",
+      "password": "04011986",
+      "loopActivity": false,
+      "sasaranKerjaId": "702",
+      "mainActivitiesFilter": "Pendataan ke lapangan",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cibuntu"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cidahu"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cicurug"
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur benda"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cidahu"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cicurug"
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur parungkuda"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur benda"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cicurug"
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cimalati"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur parakansalak"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cicurug"
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur cimalati"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur ciambar"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur parungkuda"
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "10",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur koramil"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur nanggerang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Monitoring pengangkutan sampah ke jalur bangbayang"
+          }
+        ]
+      }
+    },
+    {
+      "nama": "Yuyus Mohamad Yuspa",
+      "nip": "197803062008011005",
+      "password": "789562",
+      "sasaranKerjaId": "761",
+      "loopActivity": false,
+      "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Endeng, tps. Danu"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari jalur desa benda, spbu bangkongreang"
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari warga bangkongreang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa benda"
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari perum griya benda"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Manggis"
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Cibeber"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Jalur tenjoayu"
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa nanggerang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Endeng"
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Bong, tps. Pojok sari"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Pojok nangka, jalur nanggerang"
+          }
+        ]
+      }
+    }
+  ]
+}
