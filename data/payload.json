@@ -257,6 +257,416 @@
           }
         ]
       }
+    },
+    {
+      "nama": "Zaenudin",
+      "nip": "196606092007011009",
+      "password": "04011986",
+      "sasaranKerjaId": "744",
+      "loopActivity": false,
+      "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari jalur warga sindang palay"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa pasawahan"
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari perum benda, sd. Benda"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Sinetama"
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Pajagan rt. 01/02"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Pajagan rt. 03/04"
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa pasawahan"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari jalur cimalati"
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Lemko, tps. Nangklak"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Nempel"
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari warga cicatih"
+          }
+        ]
+      }
+    },
+    {
+      "nama": "Mulyadi",
+      "nip": "198007232008011002",
+      "password": "04011986",
+      "sasaranKerjaId": "754",
+      "loopActivity": false,
+      "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Endeng, tps. Danu"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari jalur desa benda, spbu bangkongreang"
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari warga bangkongreang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa benda"
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari perum griya benda"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Manggis"
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Cibeber"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Jalur tenjoayu"
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari desa nanggerang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Endeng"
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Bong, tps. Pojok sari"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": "Pengangkutan sampah dari tps. Pojok nangka, jalur nanggerang"
+          }
+        ]
+      }
+    },
+    {
+      "nama": "Hermansyah",
+      "nip": "197606262008011006",
+      "password": "04011986",
+      "sasaranKerjaId": "742",
+      "loopActivity": false,
+      "mainActivitiesFilter": "Melaksanakan pengambilan sampah",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "15",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "15",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "15",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "15",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "15",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "09",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari gg. Cimalati s/d kaum tengah"
+          },
+          {
+            "jamMulai": "10",
+            "jamSelesai": "11",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang"
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "14",
+            "menitMulai": "00",
+            "menitSelesai": "30",
+            "activity": "Pengambilan sampah dari iscalton dan kaum kidul"
+          },
+          {
+            "jamMulai": "14",
+            "jamSelesai": "16",
+            "menitMulai": "30",
+            "menitSelesai": "00",
+            "activity": "Mencuci kendaraan cator"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "additionalActivity": {
+    "keyword": "apel pagi",
+    "jamMulai": "08",
+    "jamSelesai": "08",
+    "menitMulai": "00",
+    "menitSelesai": "15",
+    "activity": "Melakukan kegiatan apel pagi di lingkungan kantor"
+  }
 }

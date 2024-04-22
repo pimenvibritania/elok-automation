@@ -1,5 +1,6 @@
 import datetime
 import json
+import time
 
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
@@ -8,7 +9,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from actions.activity import input_activity, select_activity_menu, find_activity, close_activity_modal
+from actions.activity import input_activity, select_activity_menu, find_activity, close_activity_modal, \
+    input_additional_activity
 from actions.auth import login, logout
 
 
@@ -30,6 +32,8 @@ def main():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(base_url)
     driver.maximize_window()
+
+    additional_activity_data = payload_data['additionalActivity']
 
     for payload in payload_data['asn']:
         username = payload['nip']
@@ -71,8 +75,18 @@ def main():
                 print("Modal not closed, because submit success...")
                 print(e)
 
-        logout(driver)
-        # break
+        time.sleep(0.5)
+
+        input_additional_activity(driver, additional_activity_data)
+        try:
+            logout(driver)
+        except ElementClickInterceptedException as e:
+            print(e)
+            modal_btn = driver.find_element(By.XPATH, '//*[@id="modal-laporkan-tambahan"]/div/div/div[1]/button')
+            modal_btn.click()
+            time.sleep(0.5)
+        finally:
+            logout(driver)
 
     driver.close()
 
