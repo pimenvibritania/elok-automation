@@ -28,8 +28,10 @@ def main():
 
     options = Options()
     options.add_experimental_option("detach", True)
+    options.add_argument("--headless=new")  #
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    print("webdriver installed")
     driver.get(base_url)
     driver.maximize_window()
 
@@ -58,34 +60,32 @@ def main():
             try:
                 input_activity(driver, hour_start, hour_end, minute_start, minute_end, activity_name,
                                sasaran_kerja_id)
-            except ElementClickInterceptedException as e:
-                print(e)
+            except ElementClickInterceptedException:
+                print("ElementClickInterceptedException | fail when input activity, closing toast button...")
 
                 toast = driver.find_element(By.CLASS_NAME, 'toast-close-button')
                 toast.click()
 
                 close_activity_modal(driver)
-            except NoSuchElementException as e:
-                print(e)
+            except NoSuchElementException:
+                print("NoSuchElementException | fail when input activity, closing modal...")
                 close_activity_modal(driver)
 
             try:
                 close_activity_modal(driver)
-            except Exception as e:
+            except Exception:
                 print("Modal not closed, because submit success...")
-                print(e)
 
         time.sleep(0.5)
 
         input_additional_activity(driver, additional_activity_data)
         try:
             logout(driver)
-        except ElementClickInterceptedException as e:
-            print(e)
+        except ElementClickInterceptedException:
+            print("ElementClickInterceptedException | error when logout, closing modal first... ")
             modal_btn = driver.find_element(By.XPATH, '//*[@id="modal-laporkan-tambahan"]/div/div/div[1]/button')
             modal_btn.click()
             time.sleep(0.5)
-        finally:
             logout(driver)
 
     driver.close()

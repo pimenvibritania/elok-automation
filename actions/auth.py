@@ -14,15 +14,18 @@ def login(driver: WebDriver, username: str, password: str):
     password_field.send_keys(password)
 
     login_button = driver.find_element(By.XPATH, '//*[@id="lojin"]')
+    print("Logged in as ", username)
     login_button.click()
     skip_welcome_tutorial(driver)
 
 
 def logout(driver: WebDriver):
-    dropdown = WebDriverWait(driver, 5).until(
-        element_to_be_clickable((By.XPATH, '//*[@id="header"]/div[2]/ul/li')))
+    dropdown = WebDriverWait(driver, 10).until(
+        element_to_be_clickable((By.XPATH, '//*[@id="header"]/div[2]/ul/li[3]')))
 
     dropdown.click()
 
-    logout_btn = driver.find_element(By.XPATH, '//*[@id="header"]/div[2]/ul/li/ul/li[4]/a')
+    logout_btn = WebDriverWait(driver, 10).until(
+        element_to_be_clickable((By.XPATH, '//*[@id="header"]/div[2]/ul/li[3]/ul/li[4]')))
     logout_btn.click()
+    print("Successfully logout")
