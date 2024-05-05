@@ -10,6 +10,7 @@
       "password": "04011986",
       "loopActivity": false,
       "sasaranKerjaId": "702",
+      "activityCode": "40557499",
       "mainActivitiesFilter": "Pendataan ke lapangan",
       "mainActivities": {
         "monday": [
@@ -157,6 +158,7 @@
       "nip": "197803062008011005",
       "password": "789562",
       "sasaranKerjaId": "761",
+      "activityCode": "36985",
       "loopActivity": false,
       "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
       "mainActivities": {
@@ -263,6 +265,7 @@
       "nip": "196606092007011009",
       "password": "04011986",
       "sasaranKerjaId": "744",
+      "activityCode": "36985",
       "loopActivity": false,
       "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
       "mainActivities": {
@@ -369,6 +372,7 @@
       "nip": "198007232008011002",
       "password": "04011986",
       "sasaranKerjaId": "754",
+      "activityCode": "GEN000868",
       "loopActivity": false,
       "mainActivitiesFilter": "Melaksanakan pengangkutan sampah",
       "mainActivities": {
@@ -475,6 +479,7 @@
       "nip": "197606262008011006",
       "password": "04011986",
       "sasaranKerjaId": "742",
+      "activityCode": "36984",
       "loopActivity": false,
       "mainActivitiesFilter": "Melaksanakan pengambilan sampah",
       "mainActivities": {
@@ -659,9 +664,154 @@
           }
         ]
       }
+    },
+    {
+      "nama": "Iskin Allatip",
+      "nip": "196702042007011011",
+      "password": "04011986",
+      "sasaranKerjaId": "766",
+      "activityCode": "19229",
+      "loopActivity": true,
+      "mainActivitiesFilter": "Melaksanakan tugas piket",
+      "mainActivities": {
+        "monday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ],
+        "tuesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ],
+        "wednesday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ],
+        "thursday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ],
+        "friday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "15",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ],
+        "saturday": [
+          {
+            "jamMulai": "08",
+            "jamSelesai": "12",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          },
+          {
+            "jamMulai": "13",
+            "jamSelesai": "15",
+            "menitMulai": "00",
+            "menitSelesai": "00",
+            "activity": false
+          }
+        ]
+      },
+      "arrayActivity": [
+        "Melakukan penagihan retribusi sampah ke Jalur Legos",
+        "Melakukan penagihan retribusi sampah ke Perum Angkrong",
+        "Melakukan penagihan retribusi sampah ke Jalur Koramil",
+        "Melakukan penagihan retribusi sampah ke Tps. Odeng",
+        "Melakukan penagihan retribusi sampah ke Tps. Dukuh",
+        "Melakukan penagihan retribusi sampah ke Perum Metro",
+        "Melakukan penagihan retribusi sampah ke Tps. Bolang RT. 03,04,06,07",
+        "Melakukan penagihan retribusi sampah ke Warga Angkrong",
+        "Melakukan penagihan retribusi sampah ke Desa Pondokaso Tengah",
+        "Melakukan penagihan retribusi sampah ke Perum BPR",
+        "Melakukan penagihan retribusi sampah ke Warga Kp. Baru",
+        "Melakukan penagihan retribusi sampah ke Tps. Paku Haji",
+        "Melakukan penagihan retribusi sampah ke Tps. Bojong Larang",
+        "Melakukan penagihan retribusi sampah ke Tps. Langen Sari",
+        "Melakukan penagihan retribusi sampah ke Perum Nirwana Ciambar",
+        "Melakukan penagihan retribusi sampah ke Protokol Parungkuda",
+        "Melakukan penagihan retribusi sampah ke Jalur Caringin",
+        "Melakukan penagihan retribusi sampah ke PT. Promed Raharjo",
+        "Melakukan penagihan retribusi sampah ke PT. KENLEE",
+        "Melakukan penagihan retribusi sampah ke SMAN 1 Cicurug",
+        "Melakukan penagihan retribusi sampah ke PT. NINA I",
+        "Melakukan penagihan retribusi sampah ke PT. NINA II",
+        "Melakukan penagihan retribusi sampah ke SMP 2 Cicurug",
+        "Melakukan penagihan retribusi sampah ke Saung EMA",
+        "Melakukan penagihan retribusi sampah ke CBI",
+        "Melakukan penagihan retribusi sampah ke RM. Rasa Lembur Kuring",
+        "Melakukan penagihan retribusi sampah ke PALAGAN",
+        "Melakukan penagihan retribusi sampah ke PT. Royal Puspita",
+        "Melakukan penagihan retribusi sampah ke PT. AL FATOY",
+        "Melakukan penagihan retribusi sampah ke PT. LONGPIN",
+        "Melakukan penagihan retribusi sampah ke SMAN 1 Parungkuda",
+        "Melakukan penagihan retribusi sampah ke SDN Warung Ceuri",
+        "Melakukan penagihan retribusi sampah ke RS. Bebita",
+        "Melakukan penagihan retribusi sampah ke RM. Pak Atok",
+        "Melakukan penagihan retribusi sampah ke SDN Pondokaso Landeh"
+      ]
     }
   ],
   "additionalActivity": {
+    "activityCode": "UMUM000440",
     "keyword": "apel pagi",
     "jamMulai": "08",
     "jamSelesai": "08",

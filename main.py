@@ -28,7 +28,7 @@ def main():
 
     options = Options()
     options.add_experimental_option("detach", True)
-    options.add_argument("--headless=new")  #
+    options.add_argument("--headless=new")
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     print("webdriver installed")
