@@ -1,0 +1,17 @@
+05/06/2024 06:27:47 PM | INFO: Today is: monday - 2024-05-06 
+05/06/2024 06:27:47 PM | INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6638beb3135fdd5318107a39, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ysky4yb-shard-00-00.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-01.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-02.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6638beb3135fdd5318107a39"}, "remainingTimeMS": 29}
+05/06/2024 06:27:48 PM | INFO: ====== WebDriver manager ======
+05/06/2024 06:27:48 PM | INFO: Get LATEST chromedriver version for google-chrome
+05/06/2024 06:27:48 PM | INFO: Get LATEST chromedriver version for google-chrome
+05/06/2024 06:27:48 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+05/06/2024 06:27:49 PM | INFO: webdriver installed 
+05/06/2024 06:27:53 PM | INFO: login as 197305042007011012 
+05/06/2024 06:27:54 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cibuntu"'}
+05/06/2024 06:27:54 PM | INFO: Aktifitas (08:15 - 10:00): Monitoring pengangkutan sampah ke jalur cibuntu selesai diinput
+05/06/2024 06:27:55 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cidahu"'}
+05/06/2024 06:27:55 PM | INFO: Aktifitas (10:00 - 12:00): Monitoring pengangkutan sampah ke jalur cidahu selesai diinput
+05/06/2024 06:27:56 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cicurug"'}
+05/06/2024 06:27:56 PM | INFO: Aktifitas (13:00 - 15:00): Monitoring pengangkutan sampah ke jalur cicurug selesai diinput
+05/06/2024 06:27:56 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor"'}
+05/06/2024 06:27:56 PM | INFO: Aktifitas tambahan selesai diinput 
+05/06/2024 06:27:56 PM | INFO: webdriver closed 

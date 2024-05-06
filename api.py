@@ -1,11 +1,15 @@
 import datetime
 import json
+import logging
+import os
+from os import environ
 
 import requests
 from pymongo import MongoClient
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from twilio.rest import Client
 from webdriver_manager.chrome import ChromeDriverManager
 
 from actions.auth import login
@@ -28,42 +32,75 @@ def holiday():
     return dates
 
 
-def get_database():
-    CONNECTION_STRING = "mongodb+srv://pimenvibritania:Genesiss13@dlh.snyu1z3.mongodb.net/?retryWrites=true&w=majority&appName=DLH"
+def paste(log_file):
+    with open(log_file, 'r') as file:
+        payload = file.read()
 
-    client = MongoClient(CONNECTION_STRING)
+    file_name = os.path.basename(log_file)
+    url = "https://pastebin.com/api/api_post.php"
+    data = {
+        'api_dev_key': '213dVWNQLBgw2ebDVRYImITn6mU83a9I',
+        'api_paste_code': payload,
+        'api_paste_name': file_name,
+        'api_paste_private': '0',
+        'api_option': 'paste',
+        'api_user_key': '1390377dc9385f62d4d59012e1510691'
+    }
+
+    response = requests.post(url, data=data)
+
+    print(response.text)
+    return response.text
+
+
+def send_whatsapp(log_file):
+    paste_url = paste(log_file)
+    auth_token = environ.get('TWILIO_TOKEN')
+    account_sid = 'ACc7aaf48f5866730b1b4b6106a1d1f1d4'
+
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(
+        from_='whatsapp:+14155238886',
+        # media_url=[paste_url],
+        body=f"*:::::{datetime.datetime.now().strftime("%Y-%m-%d")}:::::"
+             f"*\n*Elok berhasil diinput!*\nLog bisa diakses di: {paste_url}",
+        to='whatsapp:+6285723660012'
+    )
+
+    print(message.sid)
+
+
+def get_database():
+    mongo_uri = environ.get('MONGODB_URI')
+
+    client = MongoClient(mongo_uri)
 
     return client['korwil']['elok']
 
 
-def send_mail(payload):
-    api_key = payload['mailer']['api_key']
-    response = requests.post(
-        "https://api.mailgun.net/v3/sandboxf68379eb486940aaabbb48abbe8c98dd.mailgun.org/messages",
-        auth=("api", api_key),
-        data={"from": "elok@sandboxf68379eb486940aaabbb48abbe8c98dd.mailgun.org",
-              "to": ["pimenvibritania@gmail.com"],
-              "subject": "Hello",
-              "text": "Testing some Mailgun awesomeness!"})
-
-    print(response.json())
-
-
 def api():
     holidays = holiday()
-    current_date = datetime.datetime.now() - datetime.timedelta(days=1)
+    current_date = datetime.datetime.now()
+    # current_date = datetime.datetime.now() - datetime.timedelta(days=1)
     full_date_formatted = current_date.strftime("%Y-%m-%d")
     date_formatted = int(current_date.strftime("%d"))
-
     day_name = current_date.strftime("%A").lower()
 
-    # send_mail(payload_data)
+    log_file = f"logs/log_{current_date.strftime("%Y%m%d_%H%M%S")}.log"
+    logger = logging.getLogger(__name__)
+    logging.basicConfig(filename=log_file,
+                        format='%(asctime)s | %(levelname)s: %(message)s', encoding='utf-8',
+                        datefmt='%I:%M:%S %p', level=logging.INFO)
 
     if day_name == "sunday":
-        print("Current is weekend!")
+        message = f'Current is weekend, {full_date_formatted}'
+        logger.error(message)
+        print(message)
         return True
 
     print(f"Today is: {day_name} - {full_date_formatted}")
+    logger.info(f"Today is: {day_name} - {full_date_formatted} ")
 
     options = Options()
     options.add_experimental_option("detach", True)
@@ -79,6 +116,7 @@ def api():
         for payload in korwil_data['asn']:
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
             print("webdriver installed")
+            logger.info("webdriver installed ")
             driver.get(base_url)
 
             username = payload['nip']
@@ -87,13 +125,11 @@ def api():
             sasaran_kerja = payload['sasaranKerjaId']
 
             login(driver, username, password)
+            logger.info(f"\n======= Login as {username} | {payload['nama']} =======")
 
             csrf_token = driver.execute_script("return window.csrf_token;")
             cookies = driver.get_cookies()
             cookie_string = "; ".join(f"{cookie['name']}={cookie['value']}" for cookie in cookies)
-
-            print("Cookie: ", cookie_string)
-            print("CSRF: ", csrf_token)
 
             url = f"{base_url}/input/isiaktifitas"
 
@@ -159,12 +195,19 @@ def api():
 
                     if response.status_code == 200:
                         content = response.json()
-                        print(success_activity)
                         print(content)
+                        print(success_activity)
+                        if content['error']:
+                            error_activity = f"Aktifitas GAGAL diinput ({content['error']})"
+                            logger.info(error_activity)
+                        else:
+                            logger.info(success_activity)
                     else:
                         print(f"Error: {response.status_code}")
+                        logger.error(f"Error: {response.status_code} ")
                 except Exception as e:
                     print("Error post request, ", e)
+                    logger.error(f"Error post request, {e} ")
 
             if full_date_formatted not in holidays and day_name != "saturday":
                 data = {
@@ -189,15 +232,27 @@ def api():
                         content = response.json()
                         print(content)
                         print("Aktifitas tambahan selesai diinput")
+                        if content['error']:
+                            error_activity = f"Aktifitas gagal diinput ({content['error']})"
+                            logger.info("Aktifitas tambahan GAGAL diinput")
+                            logger.info(error_activity)
+                        else:
+                            logger.info("Aktifitas tambahan selesai diinput")
                     else:
                         print(f"Error: {response.status_code}")
+                        logger.error(f"Error: {response.status_code}")
                 except Exception as e:
                     print("Error post request, ", e)
+                    logger.error(f"Error post request, {e} ")
 
             driver.close()
             print("webdriver closed")
+            logger.info("webdriver closed ")
+            logger.info("====== Logged Out ======\n ")
 
     elok_cursor.close()
+    paste(log_file)
+    send_whatsapp(log_file)
 
 
 if __name__ == '__main__':

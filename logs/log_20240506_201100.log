@@ -1,0 +1,100 @@
+08:11:00 PM | INFO: Today is: monday - 2024-05-06 
+08:11:02 PM | INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6638d6e6e2d66a1c16b409f3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ysky4yb-shard-00-00.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-01.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-02.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6638d6e6e2d66a1c16b409f3"}, "remainingTimeMS": 29}
+08:11:03 PM | INFO: ====== WebDriver manager ======
+08:11:03 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:11:04 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:11:05 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:11:06 PM | INFO: webdriver installed 
+08:11:20 PM | INFO: 
+======= Login as 197305042007011012 | Sahidin =======
+08:11:21 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cibuntu")
+08:11:22 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cidahu")
+08:11:22 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cicurug")
+08:11:24 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:11:24 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:11:24 PM | INFO: webdriver closed 
+08:11:24 PM | INFO: ====== Logged Out ======
+ 
+08:11:24 PM | INFO: ====== WebDriver manager ======
+08:11:24 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:11:24 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:11:24 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:11:25 PM | INFO: webdriver installed 
+08:11:59 PM | INFO: 
+======= Login as 197803062008011005 | Yuyus Mohamad Yuspa =======
+08:12:00 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari tps. Endeng, tps. Danu")
+08:12:01 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari jalur desa benda, spbu bangkongreang")
+08:12:02 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:12:02 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:12:02 PM | INFO: webdriver closed 
+08:12:02 PM | INFO: ====== Logged Out ======
+ 
+08:12:02 PM | INFO: ====== WebDriver manager ======
+08:12:02 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:03 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:03 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:12:03 PM | INFO: webdriver installed 
+08:12:29 PM | INFO: 
+======= Login as 196606092007011009 | Zaenudin =======
+08:12:29 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari jalur warga sindang palay")
+08:12:30 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari desa pasawahan")
+08:12:31 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:12:31 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:12:31 PM | INFO: webdriver closed 
+08:12:31 PM | INFO: ====== Logged Out ======
+ 
+08:12:31 PM | INFO: ====== WebDriver manager ======
+08:12:31 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:31 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:31 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:12:32 PM | INFO: webdriver installed 
+08:12:49 PM | INFO: 
+======= Login as 198007232008011002 | Mulyadi =======
+08:12:50 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari tps. Endeng, tps. Danu")
+08:12:51 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengangkutan sampah dari jalur desa benda, spbu bangkongreang")
+08:12:52 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:12:52 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:12:52 PM | INFO: webdriver closed 
+08:12:52 PM | INFO: ====== Logged Out ======
+ 
+08:12:52 PM | INFO: ====== WebDriver manager ======
+08:12:52 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:52 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:12:52 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:12:53 PM | INFO: webdriver installed 
+08:13:15 PM | INFO: 
+======= Login as 197606262008011006 | Hermansyah =======
+08:13:16 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengambilan sampah dari gg. Cimalati s/d kaum tengah")
+08:13:16 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengambilan sampah dari kaum tengah s/d gg. Bangbayang")
+08:13:17 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Pengambilan sampah dari iscalton dan kaum kidul")
+08:13:18 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Mencuci kendaraan cator")
+08:13:19 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:13:19 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:13:19 PM | INFO: webdriver closed 
+08:13:19 PM | INFO: ====== Logged Out ======
+ 
+08:13:19 PM | INFO: ====== WebDriver manager ======
+08:13:19 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:13:19 PM | INFO: Get LATEST chromedriver version for google-chrome
+08:13:20 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+08:13:21 PM | INFO: webdriver installed 
+08:13:42 PM | INFO: 
+======= Login as 196702042007011011 | Iskin Allatip =======
+08:13:43 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan penagihan retribusi sampah ke Tps. Bolang RT. 03,04,06,07")
+08:13:44 PM | INFO: Aktifitas GAGAL diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan penagihan retribusi sampah ke PT. LONGPIN")
+08:13:45 PM | INFO: Aktifitas tambahan GAGAL diinput
+08:13:45 PM | INFO: Aktifitas gagal diinput (Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor")
+08:13:45 PM | INFO: webdriver closed 
+08:13:45 PM | INFO: ====== Logged Out ======
+ 
+08:13:48 PM | INFO: -- BEGIN Twilio API Request --
+08:13:48 PM | INFO: POST Request: https://api.twilio.com/2010-04-01/Accounts/ACc7aaf48f5866730b1b4b6106a1d1f1d4/Messages.json
+08:13:48 PM | INFO: Headers:
+08:13:48 PM | INFO: User-Agent : twilio-python/9.0.5 (Darwin arm64) Python/3.12.3
+08:13:48 PM | INFO: X-Twilio-Client : python-9.0.5
+08:13:48 PM | INFO: Accept-Charset : utf-8
+08:13:48 PM | INFO: Content-Type : application/x-www-form-urlencoded
+08:13:48 PM | INFO: Accept : application/json
+08:13:48 PM | INFO: -- END Twilio API Request --
+08:13:50 PM | INFO: Response Status Code: 201
+08:13:50 PM | INFO: Response Headers: {'Date': 'Mon, 06 May 2024 13:13:50 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '791', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ38fd1884d388fbe345c34526d07fa1b0', 'Twilio-Request-Duration': '176', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}

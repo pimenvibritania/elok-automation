@@ -1,0 +1,28 @@
+05/06/2024 06:37:22 PM | INFO: Today is: monday - 2024-05-06 
+05/06/2024 06:37:22 PM | INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6638c0f2d43de414dcb4742e, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ysky4yb-shard-00-00.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-01.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-ysky4yb-shard-00-02.snyu1z3.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6638c0f2d43de414dcb4742e"}, "remainingTimeMS": 29}
+05/06/2024 06:37:22 PM | INFO: ====== WebDriver manager ======
+05/06/2024 06:37:22 PM | INFO: Get LATEST chromedriver version for google-chrome
+05/06/2024 06:37:22 PM | INFO: Get LATEST chromedriver version for google-chrome
+05/06/2024 06:37:22 PM | INFO: Driver [/Users/pimenvibritania/.wdm/drivers/chromedriver/mac64/124.0.6367.91/chromedriver-mac-arm64/chromedriver] found in cache
+05/06/2024 06:37:23 PM | INFO: webdriver installed 
+05/06/2024 06:37:33 PM | INFO: login as 197305042007011012 
+05/06/2024 06:37:34 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cibuntu"'}
+05/06/2024 06:37:34 PM | INFO: Aktifitas (08:15 - 10:00): Monitoring pengangkutan sampah ke jalur cibuntu selesai diinput
+05/06/2024 06:37:35 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cidahu"'}
+05/06/2024 06:37:35 PM | INFO: Aktifitas (10:00 - 12:00): Monitoring pengangkutan sampah ke jalur cidahu selesai diinput
+05/06/2024 06:37:36 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Monitoring pengangkutan sampah ke jalur cicurug"'}
+05/06/2024 06:37:36 PM | INFO: Aktifitas (13:00 - 15:00): Monitoring pengangkutan sampah ke jalur cicurug selesai diinput
+05/06/2024 06:37:36 PM | INFO: {'success': False, 'error': 'Waktu aktivitas ini bersinggungan dengan aktivitas "Melakukan kegiatan apel pagi di lingkungan kantor"'}
+05/06/2024 06:37:36 PM | INFO: Aktifitas tambahan selesai diinput 
+05/06/2024 06:37:36 PM | INFO: webdriver closed 
+05/06/2024 06:37:36 PM | INFO: -- BEGIN Twilio API Request --
+05/06/2024 06:37:36 PM | INFO: POST Request: https://api.twilio.com/2010-04-01/Accounts/ACc7aaf48f5866730b1b4b6106a1d1f1d4/Messages.json
+05/06/2024 06:37:36 PM | INFO: Headers:
+05/06/2024 06:37:36 PM | INFO: User-Agent : twilio-python/9.0.5 (Darwin arm64) Python/3.12.3
+05/06/2024 06:37:36 PM | INFO: X-Twilio-Client : python-9.0.5
+05/06/2024 06:37:36 PM | INFO: Accept-Charset : utf-8
+05/06/2024 06:37:36 PM | INFO: Content-Type : application/x-www-form-urlencoded
+05/06/2024 06:37:36 PM | INFO: Accept : application/json
+05/06/2024 06:37:36 PM | INFO: -- END Twilio API Request --
+05/06/2024 06:37:39 PM | INFO: Response Status Code: 201
+05/06/2024 06:37:39 PM | INFO: Response Headers: {'Date': 'Mon, 06 May 2024 11:37:39 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1308', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ5f39f8056b551dc517f5f135af9c70a8', 'Twilio-Request-Duration': '119', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
