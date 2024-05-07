@@ -1,4 +1,8 @@
+import datetime
+from os import environ
+
 import requests
+from twilio.rest import Client
 
 
 def main():
@@ -22,5 +26,23 @@ def main():
     print(response.text)
 
 
+def send_wa(paste_url):
+    auth_token = environ.get('TWILIO_TOKEN')
+    account_sid = 'ACc7aaf48f5866730b1b4b6106a1d1f1d4'
+
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(
+        from_='whatsapp:+14155238886',
+        # media_url=[paste_url],
+        body=f"*:::::{datetime.datetime.now().strftime("%Y-%m-%d")}:::::"
+             f"*\n*Elok berhasil diinput!*\nLog bisa diakses di: {paste_url}",
+        to='whatsapp:+6285723660012'
+    )
+
+    print(message.sid)
+
+
 if __name__ == '__main__':
-    main()
+    # main()
+    send_wa("https://pastebin.com/D1Lamc4u")

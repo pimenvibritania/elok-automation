@@ -116,7 +116,6 @@ def api():
         for payload in korwil_data['asn']:
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
             print("webdriver installed")
-            logger.info("webdriver installed ")
             driver.get(base_url)
 
             username = payload['nip']
@@ -125,7 +124,7 @@ def api():
             sasaran_kerja = payload['sasaranKerjaId']
 
             login(driver, username, password)
-            logger.info(f"\n======= Login as {username} | {payload['nama']} =======")
+            logger.info(f"\n\n======= Login as {username} | {payload['nama']} =======")
 
             csrf_token = driver.execute_script("return window.csrf_token;")
             cookies = driver.get_cookies()
@@ -196,12 +195,12 @@ def api():
                     if response.status_code == 200:
                         content = response.json()
                         print(content)
-                        print(success_activity)
-                        if content['error']:
+                        if content.get('error'):
                             error_activity = f"Aktifitas GAGAL diinput ({content['error']})"
                             logger.info(error_activity)
                         else:
                             logger.info(success_activity)
+                            print(success_activity)
                     else:
                         print(f"Error: {response.status_code}")
                         logger.error(f"Error: {response.status_code} ")
@@ -231,12 +230,12 @@ def api():
                     if response.status_code == 200:
                         content = response.json()
                         print(content)
-                        print("Aktifitas tambahan selesai diinput")
-                        if content['error']:
+                        if content.get('error'):
                             error_activity = f"Aktifitas gagal diinput ({content['error']})"
                             logger.info("Aktifitas tambahan GAGAL diinput")
                             logger.info(error_activity)
                         else:
+                            print("Aktifitas tambahan selesai diinput")
                             logger.info("Aktifitas tambahan selesai diinput")
                     else:
                         print(f"Error: {response.status_code}")
@@ -247,7 +246,6 @@ def api():
 
             driver.close()
             print("webdriver closed")
-            logger.info("webdriver closed ")
             logger.info("====== Logged Out ======\n ")
 
     elok_cursor.close()
