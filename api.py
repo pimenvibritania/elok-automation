@@ -81,8 +81,8 @@ def get_database():
 
 def api():
     holidays = holiday()
-    current_date = datetime.datetime.now()
-    # current_date = datetime.datetime.now() - datetime.timedelta(days=1)
+    # current_date = datetime.datetime.now()
+    current_date = datetime.datetime.now() - datetime.timedelta(days=2)
     full_date_formatted = current_date.strftime("%Y-%m-%d")
     date_formatted = int(current_date.strftime("%d"))
     day_name = current_date.strftime("%A").lower()
@@ -158,8 +158,8 @@ def api():
             for activity in main_activity:
 
                 menit_mulai = activity['menitMulai'] if (
-                        full_date_formatted not in holidays or day_name != "saturday") else "00"
-
+                        full_date_formatted not in holidays and day_name != "saturday") else "00"
+                print("menit mulai: ", menit_mulai)
                 if payload["loopActivity"]:
                     if activity_front:
                         select_activity = payload['arrayActivity'][date_formatted]
