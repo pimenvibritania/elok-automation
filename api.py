@@ -81,8 +81,8 @@ def get_database():
 
 def api():
     holidays = holiday()
-    # current_date = datetime.datetime.now()
-    current_date = datetime.datetime.now() - datetime.timedelta(days=2)
+    current_date = datetime.datetime.now()
+    # current_date = datetime.datetime.now() - datetime.timedelta(days=2)
     full_date_formatted = current_date.strftime("%Y-%m-%d")
     date_formatted = int(current_date.strftime("%d"))
     day_name = current_date.strftime("%A").lower()
@@ -159,7 +159,7 @@ def api():
 
                 menit_mulai = activity['menitMulai'] if (
                         full_date_formatted not in holidays and day_name != "saturday") else "00"
-                print("menit mulai: ", menit_mulai)
+
                 if payload["loopActivity"]:
                     if activity_front:
                         select_activity = payload['arrayActivity'][date_formatted]
@@ -187,14 +187,14 @@ def api():
 
                 success_activity = (
                     f"Aktifitas ({activity['jamMulai']}:{activity['menitMulai']} - {activity['jamSelesai']}"
-                    f":{activity['menitSelesai']}): {activity['activity']} selesai diinput")
+                    f":{activity['menitSelesai']}): {select_activity} selesai diinput")
 
                 try:
                     response = requests.post(url, headers=headers, data=data)
 
                     if response.status_code == 200:
                         content = response.json()
-                        print(content)
+
                         if content.get('error'):
                             error_activity = f"Aktifitas GAGAL diinput ({content['error']})"
                             logger.info(error_activity)
@@ -250,7 +250,7 @@ def api():
 
     elok_cursor.close()
     paste(log_file)
-    send_whatsapp(log_file)
+    # send_whatsapp(log_file)
 
 
 if __name__ == '__main__':
